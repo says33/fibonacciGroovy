@@ -1,4 +1,4 @@
-public class fibonacci {
+class fibonacci {
 	public static void main(String[] args) {
 		int valor1=0,valor2=1,resultado,iteracion=10;
 
