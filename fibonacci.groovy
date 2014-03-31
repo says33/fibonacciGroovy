@@ -1,4 +1,5 @@
 class fibonacci {
+
 	public static void main(String[] args) {
 		int valor1=0,valor2=1,resultado,iteracion=10;
 
@@ -6,7 +7,7 @@ class fibonacci {
 			resultado=valor1+valor2;
 			valor1=valor2;
 			valor2=resultado;
-			System.out.println(" "+resultado);
+			println(" "+resultado);
 		}
 	}
 }
