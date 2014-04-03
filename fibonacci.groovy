@@ -1,11 +1,9 @@
 def fibonacci() {
-	def valor1=0,valor2=1,resultado,iteracion=10
-	(1..iteracion).each {
-		resultado=valor1+valor2
-		valor1=valor2
-		valor2=resultado
-		println(" "+resultado)
+	(0..10).each {
+		println fibo(it)
 	}
 }
+
+def fibo(n){ n < 2 ? n : fibo(n-2)+fibo(n-1) }
 
 fibonacci()
